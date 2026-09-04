@@ -10,4 +10,5 @@ export default defineConfig({
     tailwindcss(),
     svgr(),
   ],
-})
+  base: process.env.VITE_BASE_PATH || "/portfolio",
+});
