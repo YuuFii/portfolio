@@ -3,6 +3,9 @@ import Button from "../ui/button";
 import { TypingText } from "../ui/typing-effect";
 import DownloadButton from "../ui/download-button";
 import { MapPin, GraduationCap, ArrowDownRight } from "lucide-react";
+import laptopImage from "../assets/altumcode-PNbDkQ2DDgM-unsplash.jpg";
+import coffeeImage from "../assets/adam-stefanca-8FNgM0nN76s-unsplash.jpg";
+import profilePhoto from "../assets/self-photo-portrait.jpg";
 
 const highlights = [
   { icon: MapPin, text: "Batu, East Java, Indonesia" },
@@ -95,8 +98,8 @@ function Hero() {
                     >
                         <div className="w-full h-full rounded-xl overflow-hidden bg-slate-200">
                             <img
-                                src="src\assets\altumcode-PNbDkQ2DDgM-unsplash.jpg"
-                                alt="Laptop on the Table"
+                                src={laptopImage}
+                                alt="laptop on the table"
                                 className="w-full h-full object-cover grayscale opacity-80"
                             />
                         </div>
@@ -112,8 +115,8 @@ function Hero() {
                     >
                         <div className="w-full h-full rounded-xl overflow-hidden bg-slate-200">
                             <img
-                                src="src\assets\adam-stefanca-8FNgM0nN76s-unsplash.jpg"
-                                alt="Laptop on the Table"
+                                src={coffeeImage}
+                                alt="a coffee and a book"
                                 className="w-full h-full object-cover grayscale opacity-80"
                             />
                         </div>
@@ -129,7 +132,7 @@ function Hero() {
                     >
                         <div className="w-full h-full rounded-xl overflow-hidden bg-slate-200">
                             <img
-                                src="src\assets\self-photo-portrait.jpg"
+                                src={profilePhoto}
                                 alt="Laptop on the Table"
                                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                             />
