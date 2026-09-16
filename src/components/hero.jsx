@@ -13,7 +13,7 @@ const highlights = [
 ];
 
 function Hero() {
-    const roles = ["Data Analyst", "AI/ML Researcher"];
+    const roles = ["Data Analyst", "AI/ML Researcher", "AI Engineer"];
 
     const [isLoaded, setIsLoaded] = useState(false);
 

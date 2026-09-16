@@ -40,7 +40,7 @@ const ProjectCard = ({project, isFeatured}) => {
 
                     {/* <div className="static lg:absolute lg:bottom-6 lg:right-6 mt-6 lg:mt-0 w-full flex justify-end"> */}
                     <div className="absolute bottom-6">
-                        <a href={project.link} className="flex items-center gap-1 text-sm text-slate-800 font-bold group/link hover:text-amber-600 transition-colors">
+                        <a href={project.link} target="_blank" className="flex items-center gap-1 text-sm text-slate-800 font-bold group/link hover:text-amber-600 transition-colors">
                             Read more
                             <ArrowUpRight className="w-5 h-5 transform transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1"/>
                         </a>

@@ -1,39 +1,42 @@
 import React, { useState } from "react";
 import ProjectCard from "../ui/project-card";
+import makanKitaImage from "/src/assets/project-makan-kita.png";
+import retoriqaImage from "/src/assets/retoriqa-architecture.png";
+import pklDashboardImage from "/src/assets/preview-dashboard.png";
 
 const projectsData = [
     {
         id: 1,
         categoryTag: "AI/ML",
-        projectNum: "PROJECT 05",
+        projectNum: "PROJECT 01",
         year: "2025",
         title: "MakanKita",
         description: "A food nutrition estimation platform designed to support dietary management and the recovery of post-hospitalization patients.",
         techTags: ["Python", "Multimodal AI", "Web Dev"],
-        imageSrc: "https://placehold.co/800x600/e2e8f0/475569?text=Project+Image+Placeholder",
-        link: "#"
+        imageSrc: makanKitaImage,
+        link: "https://docs.google.com/document/d/1MTBJYc0bzbb3RzoZh3I6Q06wxkR4kJRW/edit?usp=sharing&ouid=105959795647399178581&rtpof=true&sd=true"
     },
     {
         id: 2,
-        categoryTag: "Web",
-        projectNum: "PROJECT 04",
+        categoryTag: "Data",
+        projectNum: "PROJECT 02",
         year: "2025",
-        title: "InternBridge",
-        description: "A modern, responsive front-end architecture for a high-traffic retail platform serving thousands of daily users.",
-        techTags: ["React", "Next.js", "Tailwind CSS"],
-        imageSrc: "https://placehold.co/800x600/e2e8f0/475569?text=Web+Project",
-        link: "#"
+        title: "Dashboard Analisis Mahasiswa FILKOM UB",
+        description: "An internship project designed to comprehensively visualize data on interests and aptitudes. Built using Google Data Studio, the dashboard transforms raw data into actionable insights through interactive visualizations.",
+        techTags: ["Google Data Studio", "Data Visualization", "Data Analytics"],
+        imageSrc: pklDashboardImage,
+        link: "https://datastudio.google.com/reporting/3f8c5363-9284-414e-abff-89ed22562a12"
     },
     {
         id: 3,
         categoryTag: "AI/ML",
         projectNum: "PROJECT 03",
-        year: "2023",
-        title: "Predictive Engine",
-        description: "Machine learning model deployed to predict customer churn based on historical usage patterns.",
-        techTags: ["Python", "Scikit-learn", "FastAPI"],
-        imageSrc: "https://placehold.co/800x600/e2e8f0/475569?text=AI+Project",
-        link: "#"
+        year: "2026",
+        title: "RetoriQA",
+        description: "An ongoing development of an advanced question-answering system leveraging Retrieval-Augmented Generation (RAG) and Large Language Models (LLM) to accurately process and retrieve information directly from PDF documents. Currently focusing on system architecture design and pipeline integration.",
+        techTags: ["RAG", "NLP", "Python"],
+        imageSrc: retoriqaImage,
+        link: "https://github.com/YuuFii/RetoriQA.git"
     },
 ];
 
