@@ -3,9 +3,9 @@ import { AnimatedCounter } from "../ui/animated-counter";
 
 function Metrics() {
     const metrics = [
-      { value: 12, suffix: "", label: "Projects shipped" },
-      { value: 8, suffix: "", label: "Technologies used" },
-      { value: 2, suffix: "+", label: "Years of experience" },
+      { value: 3, suffix: "", label: "Projects shipped" },
+      { value: 12, suffix: "", label: "Technologies used" },
+      { value: 1, suffix: "+", label: "Years of experience" },
     ];
 
     return (
